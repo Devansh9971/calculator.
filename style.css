@@ -1,0 +1,81 @@
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     src: url("https://i.pinimg.com/originals/a4/17/c7/a417c7a3f274f9b22a7e2ab1d304ee72.jpg");  
+ } 
+
+ body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(32,33,36);
+    src: url('https://i.pinimg.com/originals/a4/17/c7/a417c7a3f274f9b22a7e2ab1d304ee72.jpg'); 
+    background-image: url('https://i.pinimg.com/originals/a4/17/c7/a417c7a3f274f9b22a7e2ab1d304ee72.jpg');
+    flex-wrap: wrap;
+
+}
+
+.container{
+    width: 360px;
+    height: 90vh;
+    margin: 20px auto;
+
+    display: flex;
+    flex-direction: column;
+   border: 5px solid white;
+   border-radius: 15px;
+   padding: 10px;
+}
+
+.grid{
+    flex-grow: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+ grid-template-columns:  1fr 1fr 1fr 1fr;
+ gap: 5px;
+    
+
+}
+input{
+    flex-grow: 1;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    text-align: right;
+    font-size: 54px;
+    outline: none;
+    border: 0;
+    padding: 0px 16px;
+    padding: 10px;
+
+
+
+}
+
+button{
+    border-radius: 50%;
+    width: 75%;
+    height: 90%;
+    border: 0;
+    font-size: 23px;
+    cursor: pointer;
+    background-color: #505050;
+    place-self: center;
+    
+
+}
+.gre-button{
+    background-color: rgb(170, 163, 163);
+    color: black;
+
+}
+.yellow-button{
+ background-color: rgb(255,158,0);
+}
+
+.zero{
+    grid-column: span 2;
+    width: 89%;
+
+    border-radius: 80px;
+}
+ 
